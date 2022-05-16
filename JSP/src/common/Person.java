@@ -1,17 +1,17 @@
-package common;           // ±âº» ÆĞÅ°Áö ÀÌ¿ÜÀÇ ÆĞÅ°Áö(±Ô¾à 1¹ø)
+package common;           // ê¸°ë³¸ íŒ¨í‚¤ì§€ ì´ì™¸ì˜ íŒ¨í‚¤ì§€(ê·œì•½ 1ë²ˆ)
 
 public class Person {
-    private String name;  // private ¸â¹ö º¯¼ö(±Ô¾à 2¹ø)
-    private int age;      // private ¸â¹ö º¯¼ö(±Ô¾à 2¹ø)
+    private String name;  // private ë©¤ë²„ ë³€ìˆ˜(ê·œì•½ 2ë²ˆ)
+    private int age;      // private ë©¤ë²„ ë³€ìˆ˜(ê·œì•½ 2ë²ˆ)
 
-    public Person() {}    // ±âº» »ı¼ºÀÚ(±Ô¾à 3¹ø)
+    public Person() {}    // ê¸°ë³¸ ìƒì„±ì(ê·œì•½ 3ë²ˆ)
     public Person(String name, int age) {
         super();
         this.name = name;
         this.age = age;
     }
 
-    // public °ÔÅÍ/¼¼ÅÍ ¸Ş¼­µåµé(±Ô¾à 4¹ø, 5¹ø)
+    // public ê²Œí„°/ì„¸í„° ë©”ì„œë“œë“¤(ê·œì•½ 4ë²ˆ, 5ë²ˆ)
     public String getName() {
         return name;
     }
